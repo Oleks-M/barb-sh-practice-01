@@ -15,13 +15,23 @@
       sizes="32x32"
       href="./images/favicon/faviconlogo.png"
     />
-    
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
 
   <body>
-    <header class="container header">
+    <header class=" header container">
       <a class="header-logo-link" href="./index.html">
         <img
           class="header-img-logo"
@@ -51,31 +61,34 @@
 
       <ul class="header-nav-address-list">
         <li class="header-address-item-tel">
-          <a class="header-tel-link" href="tel:+380441111111">+38 044 111 11 11</a>
+          <a class="header-tel-link" href="tel:+380441111111"
+            >+38 044 111 11 11</a
+          >
         </li>
 
         <li class="header-address-item-btn">
-          <button class="header-btn button" type="button">Online-booking</button>
+          <button class="button" type="button">
+            Online-booking
+          </button>
         </li>
       </ul>
     </header>
 
-    
     <main>
-      <section class="hero">
-        <div>
-          <div>
-            <ul>
-              <li>
-                <a
+      <section class="hero section">
+        <div class="hero-wrapper">
+          <div class="hero-inner">
+            <ul class="hero-list">
+              <li class="hero-item">
+                <a class="hero-link"
                   href="http://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   >Instagram</a
                 >
               </li>
-              <li>
-                <a
+              <li class="hero-item">
+                <a class="hero-link"
                   href="http://youtube.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -85,15 +98,17 @@
             </ul>
           </div>
 
-          <p>A hair salon for men in Kyiv</p>
-          <h1>BarberShop</h1>
-          <p>
+          <p class="uppertitle uppertitle-dark">A hair salon for men in Kyiv</p>
+          <h1 class="hero-title">BarberShop</h1>
+          <p class="hero-text">
             We are experts in trendy men’s haircuts. We work quickly, carefully
             and with style.
           </p>
-          <ul>
-            <li><a href="">back</a></li>
-            <li><a href="">forvard</a></li>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <a class="hero-link" href="">back</a></li>
+            <li class="hero-item">
+              <a class="hero-link" href="">forvard</a></li>
           </ul>
         </div>
       </section>
@@ -126,7 +141,7 @@
               always "on the same wave" with clients. Therefore, we are always
               ready to improve everyone who comes to us!
             </p>
-            <button type="button">Online-booking</button>
+            <button class="button button-theme-light" type="button">Online-booking</button>
           </div>
         </div>
       </section>
@@ -134,23 +149,7 @@
       <section id="price">
         <p>Spend your time with the best masters</p>
         <h2>Services and prices</h2>
-        <!-- <div>
-          <ul>
-            <li>Men’s haircut</li>
-            <li>Beard trim</li>
-            <li>Mustache trim</li>
-            <li>Straight razor shave</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>Trainee’s haircut</li>
-            <li>Haircut under the nozzle</li>
-            <li>Children’s haircut (0-12 y.o.)</li>
-            <li>Camouflage of gray hair</li>
-          </ul>
-        </div> -->
-        <ul>
+                <ul>
           <li>
             <ul>
               <li>Men’s haircut</li>
@@ -170,7 +169,7 @@
           </li>
         </ul>
 
-        <button type="button">Online-booking</button>
+        <button class="button" type="button">Online-booking</button>
       </section>
 
       <section id="benefits">
@@ -300,7 +299,7 @@
         <label for="">
           <input type="text" />
         </label>
-        <button type="submit">SEND</button>
+        <button class="button" type="submit">SEND</button>
       </section>
 
       <section id="Contacts">
