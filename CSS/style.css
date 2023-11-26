@@ -1,0 +1,129 @@
+:root {
+  /* color */
+    --hover-focus: #FF6C00;
+
+  /* animation */
+
+  /* fonts */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+  |============================
+  | General Style
+  |============================
+*/
+
+.container {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+/**
+  |============================
+  | Button
+  |============================
+*/
+.button {
+/* width: 160px;
+height: 40px; */
+padding: 12px 20px;
+text-transform: uppercase;
+text-align: center;
+border-radius: 25px;
+}
+.button:hover {
+  color: var(--hover-focus);   
+}
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 1150px;
+  }
+.header-logo-link {
+  margin-right: 124px;
+}
+.header-img-logo {
+}
+.header-navigate {
+  
+  /* margin-right: 254px; */
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 32px 0;
+}
+.header-nav-item {
+ 
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--hover-focus);
+}
+  
+.header-nav-address-list {
+  display: flex;
+  margin-left: auto;
+}
+.header-address-item-tel {
+  margin-right: 40px;
+}
+.header-tel-link {
+}
+.header-address-item-btn {
+}
+.button {
+}
+.header-btn {
+}
