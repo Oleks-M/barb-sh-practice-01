@@ -4,6 +4,7 @@
   --bg: #FF6C00;
   --border: #FF6C00;
   --text-title-dark: #303030;
+  --text-title-light: rgba(157, 164, 189, 0.60);
   --text-btn-dark: #303030;
   --text-theme-light: #555555;
   --text-theme-dark: #9DA4BD;
@@ -72,7 +73,7 @@ body {
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -90,8 +91,22 @@ body {
 }
 
 .uppertitle-dark {
-  color: var(--text-theme-dark);
+  color: var(--text-title-light);
 }
+
+.title-theme-light {
+  font-family: var(--fonts-title);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 2.1px;
+  color: var(--text-title-dark);
+}
+
+.title-theme-dark {
+  color: var(--text-title-white);
+}
+
 
 /**
   |============================
@@ -138,9 +153,12 @@ body {
 */
 
 .header {
+  background-color: aqua;
+  position: relative;
   display: flex;
   align-items: center;
   max-width: 1150px;
+  z-index: 10;
 }
 
 .header-logo-link {
@@ -179,3 +197,84 @@ body {
   margin-right: 40px;
 }
 
+/**
+  |============================
+  | Hero
+  |============================
+*/
+
+.hero {
+  position: relative;
+  z-index: auto;
+  background-color: rgb(240, 203, 203);
+}
+
+.section {}
+
+.hero-wrapper {
+  display: flex;
+}
+
+.hero-inner-left {
+  max-width: 100px;
+}
+
+.hero-inner-right {
+  width: 100%;
+  padding-top: 272px;
+  padding-bottom: 208px;
+  padding-left: 100px;
+  
+}
+
+.hero-list {
+  
+  transform: rotate(-90deg);
+
+}
+
+.hero-item {
+  display: flex;
+}
+
+.hero-link {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 2.2px;
+  color: var(--text-title-dark) #303030;
+}
+
+.hero-title {
+  font-family: var(--fonts-title);
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 3.6px;
+  color: var(--text-title-white);
+
+  padding: 20px 0;
+}
+
+.hero-text {
+  width: 360px;
+
+}
+
+.hero-slider-list {
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
+justify-content: flex-end;
+  text-align: right;
+}
+
+.hero-slider-item {}
+
+.hero-slider-link {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 1.1px;
+
+
+}

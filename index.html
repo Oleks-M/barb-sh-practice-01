@@ -27,11 +27,12 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
 
   <body>
-    <header class=" header container">
+    <header class="header container">
       <a class="header-logo-link" href="./index.html">
         <img
           class="header-img-logo"
@@ -67,20 +68,19 @@
         </li>
 
         <li class="header-address-item-btn">
-          <button class="button" type="button">
-            Online-booking
-          </button>
+          <button class="button" type="button">Online-booking</button>
         </li>
       </ul>
     </header>
 
     <main>
       <section class="hero section">
-        <div class="hero-wrapper">
-          <div class="hero-inner">
-            <ul class="hero-list">
+        <div class="hero-wrapper container">
+          <div class="hero-inner-left">
+            <ul class="hero-list ">
               <li class="hero-item">
-                <a class="hero-link"
+                <a
+                  class="hero-link"
                   href="http://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -88,7 +88,8 @@
                 >
               </li>
               <li class="hero-item">
-                <a class="hero-link"
+                <a
+                  class="hero-link"
                   href="http://youtube.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -98,18 +99,24 @@
             </ul>
           </div>
 
-          <p class="uppertitle uppertitle-dark">A hair salon for men in Kyiv</p>
-          <h1 class="hero-title">BarberShop</h1>
-          <p class="hero-text">
-            We are experts in trendy men’s haircuts. We work quickly, carefully
-            and with style.
-          </p>
-          <ul class="hero-list">
-            <li class="hero-item">
-              <a class="hero-link" href="">back</a></li>
-            <li class="hero-item">
-              <a class="hero-link" href="">forvard</a></li>
-          </ul>
+          <div class="hero-inner-right">
+            <p class="uppertitle uppertitle-dark">
+              A hair salon for men in Kyiv
+            </p>
+            <h1 class="hero-title">BarberShop</h1>
+            <p class="hero-text">
+              We are experts in trendy men’s haircuts. We work quickly,
+              carefully and with style.
+            </p>
+            <ul class="hero-slider-list">
+              <li class="hero-slider-item">
+                <a class="hero-slider-link" href="">Back</a>
+              </li>
+              <li class="hero-slider-item">
+                <a class="hero-slider-link" href="">Forvard</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -141,7 +148,9 @@
               always "on the same wave" with clients. Therefore, we are always
               ready to improve everyone who comes to us!
             </p>
-            <button class="button button-theme-light" type="button">Online-booking</button>
+            <button class="button button-theme-light" type="button">
+              Online-booking
+            </button>
           </div>
         </div>
       </section>
@@ -149,7 +158,7 @@
       <section id="price">
         <p>Spend your time with the best masters</p>
         <h2>Services and prices</h2>
-                <ul>
+        <ul>
           <li>
             <ul>
               <li>Men’s haircut</li>
