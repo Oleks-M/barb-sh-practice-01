@@ -222,20 +222,20 @@ body {
 .hero-inner-right {
   width: 100%;
   padding-top: 272px;
-  padding-bottom: 208px;
+  padding-bottom: 40px;
   padding-left: 100px;
-  
+
 }
 
 .hero-list {
-  
+  display: flex;
+  gap: 40px;
+
   transform: rotate(-90deg);
 
 }
 
-.hero-item {
-  display: flex;
-}
+.hero-item {}
 
 .hero-link {
   font-size: 11px;
@@ -257,14 +257,14 @@ body {
 
 .hero-text {
   width: 360px;
-
+  margin-bottom: 144px;
 }
 
 .hero-slider-list {
   margin-left: auto;
   display: flex;
   gap: 30px;
-justify-content: flex-end;
+  justify-content: flex-end;
   text-align: right;
 }
 
@@ -275,6 +275,52 @@ justify-content: flex-end;
   font-weight: 600;
   line-height: 1.36;
   letter-spacing: 1.1px;
+}
 
+/**
+  |============================
+  | About
+  |============================
+*/
+.about {
+  padding: 120px 0;
+}
 
+.section {}
+
+.about-wrap {
+  display: flex;
+  gap: 30px;
+}
+
+.about-list-img {
+  display: flex;
+  gap: 30px;
+}
+
+.about-item-img {}
+
+.about-img {}
+
+.about-wrap-right {
+  width: 470px;
+}
+
+.about-uppertitle {
+  margin-bottom: 20px;
+}
+
+.about-title-second {
+  margin-bottom: 20px;
+}
+
+.about-text {
+  margin-bottom: 20px;
+}
+.about-content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.85;
+  letter-spacing: 0.28px;
+  margin-bottom: 42px;
 }
