@@ -333,10 +333,13 @@ body {
 
 .price {
   background-color: var(--text-title-dark);
+  padding: 120px 0;
 }
 .price-uppertitle {
+  margin-bottom: 20px;
   }
 .price-title-second {
+  margin-bottom: 44px;
 }
 .price-list {
   display: flex;
@@ -347,20 +350,52 @@ body {
 }
 .price-list-left {
   min-width: 570px;
+  padding: 30px 20px;
 }
 .price-item-left {
   }
 .price-items-left {
+  
+
 }
 .price-list-right {
   min-width: 570px;
+  padding: 30px 20px;
 
 }
-.price-items-right {
-}
 .price-item-right {
+}
+.price-items-right {
+  
 }
  .price .button {
   margin-left: auto;
   margin-right: auto;
+}
+
+/**
+  |============================
+  | Benefits
+  |============================
+*/
+.benefits {
+  display: flex;
+  padding: 120px 0;
+}
+.benefits-wrap {
+}
+.benefits-wrap-left {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-wrap-right {
+}
+.benefits-title-second {
+  flex-basis: 430px;
+}
+
+.benefits-content {
+  flex-basis: 500px;
 }
