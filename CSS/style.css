@@ -81,20 +81,6 @@ body {
 
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .uppertitle {
   font-size: 11px;
   font-weight: 600;
@@ -331,7 +317,6 @@ body {
 .about-text {
   margin-bottom: 20px;
 }
-
 .about-content {
   font-size: 14px;
   font-weight: 400;
@@ -348,12 +333,14 @@ body {
 
 .price {
   background-color: var(--text-title-dark);
+  padding: 120px 0;
 }
-
-.price-uppertitle {}
-
-.price-title-second {}
-
+.price-uppertitle {
+  margin-bottom: 20px;
+  }
+.price-title-second {
+  margin-bottom: 44px;
+}
 .price-list {
   display: flex;
   margin-bottom: 44px;
@@ -361,70 +348,55 @@ body {
 
   color: var(--text-theme-dark);
 }
-
 .price-list-left {
   min-width: 570px;
+  padding: 30px 20px;
 }
+.price-item-left {
+  }
+.price-items-left {
+  
 
-.price-item-left {}
-
-.price-items-left {}
-
+}
 .price-list-right {
   min-width: 570px;
+  padding: 30px 20px;
 
 }
-
-.price-items-right {}
-
-.price-item-right {}
-
-.price .button {
+.price-item-right {
+}
+.price-items-right {
+  
+}
+ .price .button {
   margin-left: auto;
   margin-right: auto;
 }
 
-
-
-
-.team {
+/**
+  |============================
+  | Benefits
+  |============================
+*/
+.benefits {
+  display: flex;
   padding: 120px 0;
 }
-
-.team-wrapper {}
-
-.team-uppertitle {
-  margin-bottom: 20px;
+.benefits-wrap {
+}
+.benefits-wrap-left {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-wrap-right {
+}
+.benefits-title-second {
+  flex-basis: 430px;
 }
 
-.team-title-second {
-  margin-bottom: 44px;
+.benefits-content {
+  flex-basis: 500px;
 }
 
-.team-list-cards {
-  display: flex;
-  gap: 30px;
-}
-
-.team-item-cards {}
-
-.team-wrap-social {}
-
-.team-title-cards-third-name {
-  text-align: center;
-
-}
-
-.team-text-prof {
-  color: var(--border);
-
-  text-align: center;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.36;
-  letter-spacing: 0.28px;
-}
-
-.team-wrap-social-list {}
-
-.team-wrap-social-item {}
