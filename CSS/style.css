@@ -464,3 +464,22 @@ body {
 .team-wrap-social-list {}
 
 .team-wrap-social-item {}
+
+/* Gallary */
+
+.gallery {
+}
+.section {
+  padding: 120px 0;
+}
+.gallery-wrap .uppertitle {
+  margin-bottom: 44px;
+}
+.gallery-list {
+  display: flex;
+  gap: 30px;
+}
+.gallery-item {
+}
+.gallery-img {
+}
