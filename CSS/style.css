@@ -9,6 +9,7 @@
   --text-theme-light: #555555;
   --text-theme-dark: #9DA4BD;
   --text-title-white: #ffffff;
+  --bg-hero: #111319;
 
   /* animation */
 
@@ -167,7 +168,7 @@ body {
 */
 
 .header {
-  background-color: aqua;
+  background-color: var(--bg-hero);
   position: relative;
   display: flex;
   align-items: center;
@@ -183,11 +184,13 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
-  padding: 32px 0;
+  
 }
 
 .header-nav-link,
 .header-tel-link {
+  display: block;
+  padding: 32px 0;
   font-size: 12px;
   font-weight: 600;
   line-height: 1.33;
@@ -204,6 +207,7 @@ body {
 
 .header-nav-address-list {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -220,7 +224,7 @@ body {
 .hero {
   position: relative;
   z-index: auto;
-  background-color: rgb(240, 203, 203);
+  background-color: var(--bg-hero);
 }
 
 .section {}
@@ -256,7 +260,7 @@ body {
   font-weight: 600;
   line-height: 1.36;
   letter-spacing: 2.2px;
-  color: var(--text-title-dark) #303030;
+  color: var(--text-title-dark);
 }
 
 .hero-title {
@@ -265,13 +269,13 @@ body {
   line-height: 1.18;
   letter-spacing: 3.6px;
   color: var(--text-title-white);
-
   padding: 20px 0;
 }
 
 .hero-text {
   width: 360px;
   margin-bottom: 144px;
+  color: var(--text-theme-dark);
 }
 
 .hero-slider-list {
