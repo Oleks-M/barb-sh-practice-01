@@ -72,6 +72,7 @@ body {
   letter-spacing: 0.02em;
 
 }
+
 .section {
   padding: 120px 0;
   outline: 1px red solid;
@@ -93,7 +94,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -188,7 +189,7 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
-  
+
 }
 
 .header-nav-link,
@@ -307,9 +308,7 @@ body {
   | About
   |============================
 */
-.about {
-  
-}
+.about {}
 
 .section {}
 
@@ -342,6 +341,7 @@ body {
 .about-text {
   margin-bottom: 20px;
 }
+
 .about-content {
   font-size: 14px;
   font-weight: 400;
@@ -366,12 +366,15 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .price-uppertitle {
   margin-bottom: 20px;
-  }
+}
+
 .price-title-second {
   margin-bottom: 44px;
 }
+
 .price-list {
   display: flex;
   margin-bottom: 44px;
@@ -379,27 +382,27 @@ body {
 
   color: var(--text-theme-dark);
 }
+
 .price-list-left {
   min-width: 570px;
   padding: 30px 20px;
 }
-.price-item-left {
-  }
-.price-items-left {
-  
 
-}
+.price-item-left {}
+
+.price-items-left {}
+
 .price-list-right {
   min-width: 570px;
   padding: 30px 20px;
 
 }
-.price-item-right {
-}
-.price-items-right {
-  
-}
- .price .button {
+
+.price-item-right {}
+
+.price-items-right {}
+
+.price .button {
   margin-left: auto;
   margin-right: auto;
 }
@@ -411,20 +414,49 @@ body {
 */
 .benefits {
   display: flex;
-  
+
 }
+
 .benefits-wrap {
+  display: flex;
+  justify-content: center;
+
 }
+
 .benefits-wrap-left {
+  display: flex;
+  width: 500px;
+
 }
+
 .benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 30 / 2);
+  /* gap: 30px; */
 }
+
 .benefits-item {
+  display: flex;
+  flex-basis: 170px;
+  padding: 20px 24px;
 }
+
+.benefits-text-number-left {
+  text-align: center;
+  font-family: var(--fonts-primary);
+}
+
 .benefits-wrap-right {
+  flex-basis: 500px;
 }
+.benefits-uppertitle {
+  margin-bottom: 20px;
+}
+
 .benefits-title-second {
   flex-basis: 430px;
+  margin-bottom: 20px;
 }
 
 .benefits-content {
@@ -437,9 +469,7 @@ body {
   |============================
 */
 
-.team {
-  
-}
+.team {}
 
 .team-wrapper {}
 
@@ -481,17 +511,17 @@ body {
 
 /* Gallary */
 
-.gallery {
-}
+.gallery {}
 
 .gallery-wrap .uppertitle {
   margin-bottom: 44px;
 }
+
 .gallery-list {
   display: flex;
   gap: 30px;
 }
-.gallery-item {
-}
-.gallery-img {
-}
+
+.gallery-item {}
+
+.gallery-img {}
