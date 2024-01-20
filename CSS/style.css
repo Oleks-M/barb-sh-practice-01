@@ -534,3 +534,31 @@ body {
 .gallery-item {}
 
 .gallery-img {}
+
+
+
+
+/* Footer */
+
+.footer .container {
+  display: flex;
+}
+.container {
+}
+.footer-copyright {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+.footer-list {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+}
+.footer-item {
+  /* padding-top: 52px;
+  padding-bottom: 52px; */
+}
+.footer-link {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
