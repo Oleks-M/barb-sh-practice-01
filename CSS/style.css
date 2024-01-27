@@ -173,17 +173,20 @@ body {
 */
 
 .header {
-  background-color: var(--bg-hero);
-  position: relative;
+  background-color: #ffffff00;
+  position: absolute;
+  top: 0;
+  width:100vw;
+  z-index: 10;
+}
+.header-container {
   display: flex;
   align-items: center;
   max-width: 1150px;
-  z-index: 10;
 }
-
 .header-logo-link {
   margin-right: 124px;
-  color: var(--text-title-dark); 
+ color: var(--text-title-dark); 
 }
 
 .header-svg-logo {
@@ -224,7 +227,12 @@ body {
 .header-address-item-tel {
   margin-right: 40px;
 }
-
+/* main {
+  display: none;
+}
+footer {
+  display: none;
+} */
 /**
   |============================
   | Hero
