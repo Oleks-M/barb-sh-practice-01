@@ -309,17 +309,32 @@ footer {
 .hero-slider-item {}
 
 .hero-slider-link {
-  min-width: 40px;
+  min-width: 60px;
   font-size: 11px;
   font-weight: 600;
   line-height: 1.36;
   letter-spacing: 1.1px;
 
+  padding: 0;
   padding-bottom: 8px;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #ffffff;
 }
+
+.hero-slider-item:first-child button {
+  text-align-last: left;
+  color:  #9da4bd9a;
+  border-bottom: 1px solid #9da4bd9a;;
+}
+
+.hero-slider-item:last-child button {
+  text-align: right;
+  color: var(--text-title-white);
+}
+
+
+
 
 .hero-slider-link:hover,
 .hero-slider-link:focus {
